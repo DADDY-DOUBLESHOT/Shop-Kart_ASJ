@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Shopping List</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="click_to_add">Click to add a new item</string>
+    <string name="new_item_dialog_title">Enter a new item</string>
+    <string name="qtyText">Quantity:</string>
+    <string name="date_added">Date added:</string>
+    <string name="item_name">Item Name:</string>
+</resources>
