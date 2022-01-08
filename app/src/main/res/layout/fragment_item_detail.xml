@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
 
     <data>
         <variable
@@ -14,7 +16,9 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@color/colorRoyalPurple"
+        >
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline"
@@ -50,6 +54,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-medium"
             android:text="@string/item_name"
+            android:textColor="@color/white"
             app:layout_constraintStart_toStartOf="@+id/guideline"
             app:layout_constraintTop_toTopOf="@+id/guideline3" />
 
@@ -60,6 +65,7 @@
             android:layout_marginStart="8dp"
             tools:text="Yam"
             itemName="@{item}"
+            android:textColor="@color/white_grey"
             app:layout_constraintStart_toEndOf="@+id/textView5"
             app:layout_constraintTop_toTopOf="@+id/guideline3" />
 
@@ -69,6 +75,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="@string/qtyText"
+            android:textColor="@color/white"
             app:layout_constraintStart_toStartOf="@+id/guideline"
             app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
@@ -80,6 +87,7 @@
             android:layout_marginTop="16dp"
             tools:text="4.92"
             itemQuantity="@{item}"
+            android:textColor="@color/white_grey"
             app:layout_constraintStart_toEndOf="@+id/textView7"
             app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
@@ -89,6 +97,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="@string/date_added"
+            android:textColor="@color/white"
             app:layout_constraintStart_toStartOf="@+id/guideline"
             app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
@@ -98,6 +107,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             dateCreated="@{item}"
+            android:textColor="@color/white_grey"
             android:layout_marginTop="16dp"
             tools:text="9th February 2019"
             app:layout_constraintStart_toEndOf="@+id/textView9"
