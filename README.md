@@ -10,7 +10,7 @@ One of the thing that technology has made us is that it has made us forgetful. L
 
 As discussed earlier technology has made us forgetful, our app shop-kart uses technology to this problem. Our app is similar to the light weight phone number directory in our mobile. It allows users to put in the item name that user wants to buy and then quantity of items required. As soon as the user enters the item and quantity it displays a record  with item name, Item quantity ,time stamp with date added .In this way this light weight app can be used to cater the problem of shopping
 
-<img width="559" alt="sampleimages" src="https://github.com/DADDY-DOUBLESHOT/Shop-Kart_ASJ/img/screens.png">
+<img width="559" alt="sampleimages" src="https://github.com/DADDY-DOUBLESHOT/Shop-Kart_ASJ/imgs/screens.png">
     	  	
 <b> Functionality & Concepts used : </b>
 
