@@ -24,6 +24,6 @@ As discussed earlier technology has made us forgetful, our app shop-kart uses te
 
 <b> Application Link & Future Scope : </b>
 
-You can find our app at: https://github.com/DADDY-DOUBLESHOT/Shop-Kart_ASJ.git
+You can find our app at: https://github.com/DADDY-DOUBLESHOT/Shop-Kart_ASJ/blob/e32214f917c402f9ba624062822c2ffa14607c10/app/release/shopKart.apk
 
 The app is currently in beta development stage, we are also planning to add cloud storage so that the same user can access it over other devices. Once the app will be completed, we are planning to launch it on play store where users can access the app and give reviews and feedback also, we will make improvements accordingly  
